@@ -153,7 +153,7 @@ header {
 .button-1 a {
   color: white;
   text-decoration: none;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 .button-1 :hover {
   color: white;
@@ -171,7 +171,7 @@ header {
 .button-2 a {
   color: white;
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .button-2 :hover {
@@ -198,4 +198,63 @@ header {
 .quot {
   color: #19c5f0;
   font-size: 60px;
+}
+
+.lorem-1 {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.company {
+  text-align: center;
+}
+
+.bold {
+  font-size: 20px;
+}
+
+.lorem-text {
+  display: flex;
+  gap: 30px;
+}
+
+.icon-apple {
+  color: #2bb3d5;
+}
+
+.icon-windows {
+  color: #2bb3d5;
+}
+.icon-envelope {
+  color: #2bb3d5;
+}
+
+.icon-heart {
+  color: #2bb3d5;
+}
+
+.icon-suitcase {
+  color: #2bb3d5;
+}
+
+.icon-tags {
+  color: #2bb3d5;
+}
+
+.lorem-all {
+  display: flex;
+  gap: 30px;
+}
+
+.lorem-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  transition: content 0.5s ease;
+  align-items: center;
+}
+
+.lorem-image :hover {
+  transition: content 0.5s;
+  opacity: 0.8;
 }

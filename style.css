@@ -60,6 +60,7 @@ header {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -157,7 +158,6 @@ header {
 }
 .button-1 :hover {
   color: white;
-  background-color: #309db8;
 }
 
 .button-2 {
@@ -176,6 +176,7 @@ header {
 
 .button-2 :hover {
   color: white;
+  background-color: #2bb3d5;
 }
 
 .second {
@@ -203,6 +204,7 @@ header {
 .lorem-1 {
   padding-left: 30px;
   padding-top: 30px;
+  height: 90vh;
 }
 
 .company {
@@ -257,4 +259,43 @@ header {
 .lorem-image :hover {
   transition: content 0.5s;
   opacity: 0.8;
+}
+
+.client {
+  height: 90vh;
+  background-color: #e4ebf0;
+}
+
+.client h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.test img {
+  border-radius: 50%;
+}
+
+.imgs-1 {
+  display: flex;
+}
+
+.imgs-1 span {
+  color: #2bb3d5;
+}
+
+.imgs-1 {
+  gap: 10px;
+  display: flex;
+}
+
+.icon-quote-right {
+  color: #c2d1db;
+  font-size: 50px;
 }
